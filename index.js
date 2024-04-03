@@ -22,9 +22,9 @@ function loadImages() {
 
 function changeTextHeading() {
   if (randomNumber1 > randomNumber2) {
-    document.querySelector(".container h1").textContent = "Player 1 Wins";
+    document.querySelector(".container h1").textContent = "🚩 Player 1 Wins";
   } else if (randomNumber1 < randomNumber2) {
-    document.querySelector(".container h1").textContent = "Player 2 Wins";
+    document.querySelector(".container h1").textContent = "Player 2 Wins 🚩";
   } else {
     document.querySelector(".container h1").textContent = "Draw";
   }
